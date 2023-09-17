@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.page-container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-container1 {
+    max-width: 1140px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-img {
+    background: url(../images/bg-img.png);
+    background-position: center;
+}
+
+.box {
+    width: 100%;
+    padding: 48px 27px;
+
+}
+
+.color-green {
+    color: #00A106;
+}
+
+.color-orange {
+    color: #FF0000;
+}
+
+.mb-138 {
+    margin-bottom: 138px;
+}
+
+.py-133 {
+    padding-top: 133px;
+    padding-bottom: 133px;
+}
+
+.color-black {
+    color: black;
+}
+
+.pt-88 {
+    padding-top: 88px;
+}
+
+.para {
+    padding: 44px 107px 0px 0;
+}
+
+.box1 {
+    max-width: 238px;
+    border: 2px solid black;
+    padding: 0 24px;
+}
+
+.mint {
+    padding: 12px 16px;
+    border: 2px solid #000;
+    background: #FFD600;
+    border: 2px solid black;
+    transition: all 300ms linear;
+}
+
+.mint:hover {
+    background: transparent;
+}
+
+.addbtn,
+.minusbtn {
+    cursor: pointer;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.mb-122 {
+    margin-bottom: 122px;
+}
+
+.box3 {
+    max-width: 832px;
+}
+
+.accordian-heading {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 31px;
+}
+
+.accordian {
+    background-color: #FFF03F;
+    border: 1px solid #FFF03F;
+    max-width: 988px !important;
+    padding: 17px 11px 18px 19px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    --bs-accordion-bg: transparent !important;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    box-shadow: none !important;
+}
+
+.accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    max-width: 992px !important;
+}
+
+.accordian.active .accordian-para {
+    display: block;
+    padding-left: 31px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+
+.accordion-item {
+    box-shadow: none !important;
+    border-bottom: 2px solid black !important;
+}
+
+.accordion-item1 {
+    box-shadow: none !important;
+    border-bottom: none !important;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 8px !important;
+    height: 8px !important;
+
+    margin-left: auto;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../images/plus.png) !important;
+    background-size: contain !important;
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus.png) !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.border-bottom-2 {
+    border-bottom: 2px solid black;
+}
+
+.border-top-2 {
+    border-top: 2px solid black !important;
+}
+
+.latest {
+    -webkit-text-stroke: #000 1.5px;
+}
+
+.shodow-text {
+    text-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0, 25);
+}
+
+.border-left-2 {
+    border-left: 2px solid #000;
+}
+
+.border-right-2 {
+    border-right: 2px solid #000;
+}
+
+.row-main {
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: var(--bs-gutter-y);
+}
+
+.pl-21 {
+    padding-left: 21px;
+}
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+.pr-24 {
+    padding-right: 24px;
+}
