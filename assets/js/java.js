@@ -32,6 +32,7 @@ $('.slider').slick({
                 autoplay: true,
                 speedautoplay: 2000,
                 speed: 1000,
+                arrows: false,
             }
         }
     ]

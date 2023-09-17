@@ -1,6 +1,6 @@
 @media (max-width:1200px) {
     .para {
-        padding:44px 0 0 0;
+        padding: 44px 0 0 0;
     }
 }
 
@@ -10,18 +10,19 @@
     }
 
 }
+
 @media (max-width:768px) {
     .align-text-md-centre {
         text-align: center;
     }
 }
+
 @media (max-width:650px) {
+
     .btnprev,
-    .btnnxt{
+    .btnnxt {
         display: none;
     }
 }
 
-@media (max-width:576px) {
-    
-}
+@media (max-width:576px) {}
