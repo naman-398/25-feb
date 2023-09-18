@@ -69,7 +69,6 @@
 .box1 {
     max-width: 238px;
     border: 2px solid black;
-    padding: 0 24px;
 }
 
 .mint {
@@ -151,6 +150,9 @@
     font-weight: var(--fw-4) !important;
 }
 
+.mb-88 {
+    margin-bottom: 88px;
+}
 
 .accordion-item {
     box-shadow: none !important;
