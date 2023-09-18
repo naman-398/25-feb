@@ -99,10 +99,10 @@
 
 .accordian-heading {
     color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-family: var(--ff-noto) !important;
+    font-size: var(--fs-2sm) !important;
     font-style: normal;
-    font-weight: 600;
+    font-weight: var(--fw-6) !important;
     line-height: normal;
     padding-left: 31px;
 }
@@ -121,6 +121,10 @@
 }
 
 .accordion-button {
+    font-family: var(--ff-noto) !important;
+    font-size: var(--fs-2sm) !important;
+    font-style: normal;
+    font-weight: var(--fw-6) !important;
     position: relative;
     display: flex;
     align-items: center;
@@ -138,6 +142,9 @@
 .accordion-body {
     padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
     max-width: 992px !important;
+    font-family: var(--ff-noto) !important;
+    font-size: var(--fs-1sm) !important;
+    font-weight: var(--fw-4) !important;
 }
 
 .accordian.active .accordian-para {
